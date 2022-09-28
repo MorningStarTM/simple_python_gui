@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('art.jpg');
+}
+
+.log-page{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#title{
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 900px;
+    margin-left: 10px;
+    color: white;
+    
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+input{
+    height: 40px;
+    width: 400px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px;
+    background: #545351;
+    font-family: 'Poppins';
+}
+
+input:focus{
+    border: 2px solid white;
+}
+
+button{
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    background: #696662;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #a8a8a7;
+}
