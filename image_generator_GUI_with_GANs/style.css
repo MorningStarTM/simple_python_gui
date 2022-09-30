@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins:wght@200;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: #e0eafc;
+    background: -webkit-linear-gradient(to right, #cfdef3, #e0eafc);
+
+}
+
+#title{
+    height: 40px;
+    font-weight: 600;
+    color: darkslateblue;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.app-face{
+    max-width: 650px;
+    width: 100%;
+    padding: 30px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
+
+}
+
+.drug-area{
+    height: 400px;
+    border: 3px dashed #e0eafc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
